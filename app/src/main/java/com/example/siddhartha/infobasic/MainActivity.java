@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 final String LOGIN_URL = "http://registermemory.esy.es/login.php";
                 final Dialog dialog = new Dialog(MainActivity.this);
                 dialog.setContentView(R.layout.adminlogin);
+                dialog.setTitle("Admin Login");
                 final EditText user = (EditText)dialog.findViewById(R.id.etUsername);
                 final EditText pass = (EditText)dialog.findViewById(R.id.etPassword);
                 Button login = (Button)dialog.findViewById(R.id.bLogin);
